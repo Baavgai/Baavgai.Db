@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Baavgai</Authors>
+    <Copyright>GNU 3.0</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Baavgai.Db\**" />
+    <Compile Remove="Db\**" />
+    <Compile Remove="User\**" />
+    <Compile Remove="Web\**" />
+    <EmbeddedResource Remove="Baavgai.Db\**" />
+    <EmbeddedResource Remove="Db\**" />
+    <EmbeddedResource Remove="User\**" />
+    <EmbeddedResource Remove="Web\**" />
+    <None Remove="Baavgai.Db\**" />
+    <None Remove="Db\**" />
+    <None Remove="User\**" />
+    <None Remove="Web\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Extentions\" />
+  </ItemGroup>
+
+</Project>

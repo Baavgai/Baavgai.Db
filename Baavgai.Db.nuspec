@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Baavgai.Db</id>
+    <version>1.0.0</version>
+    <title>Baavgai.Db - making ADO.NET friendlier</title>
+    <authors>Baavgai</authors>
+    <owners>Baavgai</owners>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/Baavgai/Baavgai.Db</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A simple set of System.Data.Common extensions.</description>
+    <releaseNotes>First release.</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>.net extension ado.net</tags>
+  </metadata>
+    <files>
+        <file src="README.md" target="" />
+    </files>
+</package>
